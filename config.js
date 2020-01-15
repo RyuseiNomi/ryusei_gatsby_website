@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
+  title: '快速スーパーエンジニア行き',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Ryusei Nomi',
-    photo: '/photo.jpg',
+    photo: '/ryu_icon.jpeg',
     bio: '小田原で働く社会人２年目Webエンジニア/音ゲー/写真/鉄道旅',
     contacts: {
       email: '',
