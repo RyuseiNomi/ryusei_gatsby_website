@@ -25,9 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Ryusei Nomi',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '小田原で働く社会人２年目Webエンジニア/音ゲー/写真/鉄道旅',
     contacts: {
       email: '',
       facebook: '#',
