@@ -30,10 +30,10 @@ module.exports = {
     bio: '小田原で働く社会人２年目Webエンジニア/音ゲー/写真/鉄道旅',
     contacts: {
       email: '',
-      facebook: '#',
+      facebook: 'ryusei.nomi',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: '27ma4_ton10',
+      github: 'RyuseiNomi',
       rss: '',
       vkontakte: '',
       linkedin: '#',
