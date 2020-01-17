@@ -18,19 +18,15 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'Ryusei Nomi',
+    name: 'とんと',
     photo: '/ryu_icon.jpeg',
     bio: '小田原で働く社会人２年目Webエンジニア/音ゲー/写真/鉄道旅',
     contacts: {
       email: '',
-      facebook: 'ryusei.nomi',
+      facebook: '',
       telegram: '',
       twitter: '27ma4_ton10',
       github: 'RyuseiNomi',
