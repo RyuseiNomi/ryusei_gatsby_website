@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
+import Header from '../components/Header';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
@@ -31,6 +32,7 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
+      <Header />
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />
