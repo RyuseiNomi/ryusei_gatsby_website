@@ -12,4 +12,27 @@
       padding-left: 10px;
     }
   }
+
+  &__menu {
+    color: white;
+    background-color: #ff7f50;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: $typographic-base-font-size * 1.1;
+    font-weight: 600;
+
+    &-list {
+      display: inline-block;
+      width: 18%;
+      min-width: 90px;
+      vertical-align: middle;
+
+      &:hover,
+      &:focus {
+        color: black;
+        background-color: white;
+      }
+    }
+  }
 }
