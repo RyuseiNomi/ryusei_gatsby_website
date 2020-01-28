@@ -2,6 +2,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
@@ -22,10 +23,11 @@ const PageTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
-      <Sidebar />
+      <Header title="快速スーパーエンジニア行き" />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
+      <Sidebar />
     </Layout>
   );
 };

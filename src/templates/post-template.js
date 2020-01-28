@@ -2,6 +2,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import Header from '../components/Header';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
@@ -20,6 +21,7 @@ const PostTemplate = ({ data }: Props) => {
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
+      <Header title="快速スーパーエンジニア行き" />
       <Post post={data.markdownRemark} />
     </Layout>
   );
