@@ -28,10 +28,13 @@
       min-width: 90px;
       vertical-align: middle;
 
-      &:hover,
-      &:focus {
-        color: black;
+      &:hover {
+        color: #ff7f50;
         background-color: white;
+      }
+
+      &-link {
+        color: white;
       }
     }
   }

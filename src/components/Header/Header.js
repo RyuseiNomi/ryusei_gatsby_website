@@ -20,7 +20,7 @@ const Header = Props => {
       <ul className={styles["header__menu"]}>
         {menu.map((item) => (
           <li className={styles["header__menu-list"]} key={item.path}>
-            <Link to={item.path}>
+            <Link to={item.path} className={styles["header__menu-list-link"]}>
             {item.label}
             </Link>
           </li>
