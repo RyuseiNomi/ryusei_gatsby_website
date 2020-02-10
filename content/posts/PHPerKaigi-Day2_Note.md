@@ -1,3 +1,15 @@
+---
+template: post
+title: PHPerKaigi-Day2に参加した時のメモまとめ
+slug: phperkaigi_day2
+draft: false
+date: 2020-01-17T09:21:49.683Z
+description: PHPerKaigiの参加メモ
+category: 'Conference'
+tags:
+  - Conference
+---
+
 # はじめに
 
 この記事は、2020/02/10に開催されたPHPerKaigiの2日目のセッション中にまとめたメモをつなげたものです。
