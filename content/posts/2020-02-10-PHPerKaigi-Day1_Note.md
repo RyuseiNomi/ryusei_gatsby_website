@@ -1,7 +1,7 @@
 ---
 template: post
-title: PHPerKaigi-Day2に参加した時のメモまとめ
-slug: phperkaigi_day2
+title: PHPerKaigi-Day1に参加した時のメモまとめ
+slug: phperkaigi_day1
 draft: false
 date: 2020-02-20T17:05:49.683Z
 description: PHPerKaigiの参加メモ
@@ -12,7 +12,7 @@ tags:
 
 # はじめに
 
-この記事は、2020/02/10に開催されたPHPerKaigiの2日目のセッション中にまとめたメモをつなげたものです。
+この記事は、2020/02/10に開催されたPHPerKaigiの1日目のセッション中にまとめたメモをつなげたものです。
 
 些細ですがアウトプットのつもりで書いています。
 
